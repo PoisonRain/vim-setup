@@ -6,12 +6,13 @@ set noexpandtab
 set shiftwidth=2
 set tabstop=2
 
-nnoremap <C-e> :exec '!python' shellescape(@%, 1)<cr>
+nnoremap <C-e> :w<CR> :exec '!python' shellescape(@%, 1)<cr>
+"nnoremap <C-s> :w<CR>
 nnoremap <C-l> :set invnumber<cr>
-"nnoremap <C-i> :set invrightleft<cr>
+nnoremap <C-i> :set invrightleft<cr>
 nnoremap <C-_> :2winc -<cr>
 nnoremap <C-i> :2winc +<cr>
-":w<CR>:!python %<CR>
+nnoremap <C-q> :close<cr>
 
 "set mouse=a
 "set ttymouse=xterm2

@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/ARBFUND/zneubert/Documents/django-thermal-dashboard/polls/templates'
 let g:netrw_dirhist_2='/home/ARBFUND/zneubert/Documents/django-thermal-dashboard/persistentchat'
 let g:netrw_dirhist_3='/home/ARBFUND/zneubert/Documents/Subversion/Apollo/apollo/trunk/apollo-ui/src/main/resources/api'
 let g:netrw_dirhist_4='/home/ARBFUND/zneubert/Documents/Subversion/Apollo/apollo/trunk/apollo-ui/src/main/webapp/js'
+let g:netrw_dirhist_5='/home/ARBFUND/zneubert/Documents/Subversion/Apollo/apollo/trunk/apollo-ui/src/main/webapp/js/widgets'
+let g:netrw_dirhist_6='/home/ARBFUND/zneubert/Documents/Subversion/Apollo/apollo/trunk/apollo-ui/src/main/webapp/WEB-INF'
+let g:netrw_dirhist_7='/home/ARBFUND/zneubert/Documents/Subversion/Apollo/apollo/trunk/apollo-ui/src/main/webapp/WEB-INF/jsp'
+let g:netrw_dirhist_8='/home/ARBFUND/zneubert/Documents/django-thermal-dashboard/thermaldashboard'
