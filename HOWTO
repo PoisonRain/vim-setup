@@ -1,0 +1,2 @@
+Fill your ~/.vim folder with this repo. 
+Add this symlink ~/.vimrc -> ~/.vim/.vimrc
