@@ -14,6 +14,8 @@ nnoremap <C-_> :2winc -<cr>
 nnoremap <C-=> :2winc +<cr>
 nnoremap <C-q> :close<cr>
 
+cmap w!! w !sudo tee > /dev/null %
+
 "set mouse=a
 "set ttymouse=xterm2
 
