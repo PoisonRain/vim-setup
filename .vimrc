@@ -14,6 +14,11 @@ nnoremap <C-_> :2winc -<cr>
 nnoremap <C-=> :2winc +<cr>
 nnoremap <C-q> :close<cr>
 
+imap jj <Esc>j
+imap kk <Esc>k
+"imap ll <Esc>l
+imap hh <Esc>h
+
 cmap w!! w !sudo tee > /dev/null %
 
 "set mouse=a
