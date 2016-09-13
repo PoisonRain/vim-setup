@@ -5,6 +5,7 @@ set smartindent
 set noexpandtab
 set shiftwidth=2
 set tabstop=2
+set softtabstop=2
 
 nnoremap <C-e> :w<CR> :exec '!python' shellescape(@%, 1)<cr>
 nnoremap <C-l> :set invnumber<cr>
