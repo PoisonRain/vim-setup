@@ -21,8 +21,6 @@ nnoremap <C-q> :close<cr>
 
 vnoremap <C-c> :w !xclip -i -sel c<cr><cr>
 
-"Jedi Bindings
-
 imap jj <Esc>j
 imap kk <Esc>k
 imap jkl <Esc>ll
