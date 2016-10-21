@@ -25,13 +25,13 @@ vnoremap <C-c> :w !xclip -i -sel c<cr><cr>
 
 imap jj <Esc>j
 imap kk <Esc>k
-"imap ll <Esc>l
+imap jkl <Esc>ll
 imap hh <Esc>h
 
 cmap w!! w !sudo tee > /dev/null %
 
-"set mouse=a
-"set ttymouse=xterm2
+set mouse=a
+set ttymouse=xterm2
 
 filetype plugin indent on
 
