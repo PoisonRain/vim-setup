@@ -11,6 +11,8 @@ set softtabstop=4
 
 set backspace=2
 
+set incsearch
+
 nnoremap <C-e> :w<CR> :exec '!python3' shellescape(@%, 1)<cr>
 nnoremap <C-l> :set invnumber<cr>
 nnoremap <C-i> :set invrightleft<cr>
